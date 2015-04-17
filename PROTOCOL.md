@@ -25,3 +25,8 @@
    using the default forcefield (MMFF94).
 
    $ obabel ../compounds.smi -O compound.qcin --gen3d --conformer --nconf 1 --weighted -m --append cansmi --addtotitle cansmi:
+
+   These were all tarred up into a single package.
+
+   $ md5 compounds.3d.tgz
+   MD5 (compounds.3d.tgz) = 2b182093ec516693c387b9909c36b25e
